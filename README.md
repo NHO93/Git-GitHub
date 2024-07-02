@@ -2,8 +2,9 @@
 
 ## Este repositório foi criado com o intuito de ajudar a entender como funciona os comandos do Git  
 
-### Comandos: [ Git ](https://github.com/NHO93/Git-GitHub/blob/master/Git.mkd)
+### Comandos: [Git](https://github.com/NHO93/Git-GitHub/blob/master/Git.mkd)
 
+### Documentação Oficial: [Aprenda Git do básico ao avançado](https://comandosgit.github.io/)
 
 ### Video-aulas:
 
@@ -12,5 +13,3 @@
 [Alura](https://www.youtube.com/watch?v=P4BNi_yPehc)
 
 [Attekita Dev](https://www.youtube.com/watch?v=P9xXbEhqhqA)
-
-[]()
