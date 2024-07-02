@@ -27,10 +27,10 @@ As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "User Name"
 
 ##### Endereço electrónico Setar
-	git config --user.email leonardo@software-ltda.com.br global
+	git config --global user.email "username@email.com"
 
 ##### Editora Setar
 	git config --global core.editor vim
@@ -66,11 +66,11 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 ##### Adicionar um arquivo em específico
 
-	git adicionar meu_arquivo.txt
+	git adicionar seu_aqrquivo.txt
 
 ##### Adicionar um diretório em específico
 
-	git adicionar meu_diretorio
+	git adicionar seu_diretorio
 
 ##### Adicionar todos os arquivos/diretórios
 
@@ -88,17 +88,17 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 ##### Comitar vários arquivos
 
-	git commit meu_arquivo.txt meu_outro_arquivo.txt
+	git commit seu_arquivo.txt seu_outro_arquivo.txt
 
 ##### Comitar informando mensagem
 
-	git commit meuarquivo.txt -m "minha mensagem de commit"
+	git commit seuarquivo.txt -m "minha mensagem de commit"
 
 ### Remover arquivo/diretório
 
 ##### Remover arquivo
 
-	meu_arquivo.txt git rm
+	seu_arquivo.txt git rm
 
 ##### Remover diretório
 
@@ -153,28 +153,28 @@ Verifique as demais opções de formatação no [Git Book](http://git-scm.com/bo
 
 ##### Exibir revisão e autor da última modificação de uma bloco de linhas
 
-	git blame -L 12,22 meu_arquivo.txt 
+	git blame -L 12,22 seu_arquivo.txt 
 
 ### Desfazendo operações
 
 ##### Desfazendo alteração local (working directory)
 Este comando deve ser utilizando enquanto o arquivo não foi adicionado na **staged area**. 
 
-	git checkout -- meu_arquivo.txt
+	git checkout -- seu_arquivo.txt
 
 ##### Desfazendo alteração local (staging area)
 Este comando deve ser utilizando quando o arquivo já foi adicionado na **staged area**.
 
-	git reset HEAD meu_arquivo.txt
+	git reset HEAD seu_arquivo.txt
 
 Se o resultado abaixo for exibido, o comando reset *não* alterou o diretório de trabalho. 
 
 	Unstaged changes after reset:
-	M	meu_arquivo.txt
+	M	seu_arquivo.txt
 
 A alteração do diretório pode ser realizada através do comando abaixo:
 
-	git checkout meu_arquivo.txt
+	git checkout seu_arquivo.txt
 
 ## Repositório Remoto
 
@@ -186,7 +186,7 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 ### Vincular repositório local com um repositório remoto
 
-	git remote add origin git@github.com:leocomelli/curso-git.git
+	git remote add origin git@github.com:orepositorioaqui/curso-git.git
 
 ### Exibir informações dos repositórios remotos
 
@@ -223,7 +223,7 @@ Os demais **pushes** não precisam dessa informação
 
 ### Clonar um repositório remoto já existente
 
-	git clone git@github.com:leocomelli/curso-git.git
+	git clone git@github.com:orepositorioaqui/curso-git.git
 
 ### Tags
 
