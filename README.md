@@ -1,6 +1,6 @@
 # Git
 
-## Este repositório foi criado com o intuito de ajudar a entender como funciona os comandos do Git  
+## Este repositório foi criado com o intuito de ajudar tirar duvidas e aprender sobre os comandos do Git  
 
 ### Comandos
 - [Git](https://github.com/NHO93/Git-GitHub/blob/master/Git.mkd)
